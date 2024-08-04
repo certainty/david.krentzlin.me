@@ -1,13 +1,13 @@
 ---
-Tags:
+title: "Braces - compiler and virtual machine for a scheme dialect"
+date: '2023-12-31'
+tags:
  - rust 
  - projects
  - braces
 
-Summary: I was keen to learn rust and dive into "crafting interpreters" so I ended up implementing a compiler and VM for a small scheme dialect.
+summary: 'I was keen to learn rust and dive into "crafting interpreters" so I ended up implementing a compiler and VM for a small scheme dialect.'
 ---
-
-# Braces - compiler and virtual machine for a scheme dialect
 
 <i class="fa-solid fa-signal"></i> &nbsp; Inactive &nbsp; &nbsp; &nbsp; <i class="fa-solid fa-toolbox"></i> &nbsp; Rust &nbsp; &nbsp; &nbsp;  <i class="fa-brands fa-github"></i> &nbsp; [certainty/braces][1] 
 
@@ -46,10 +46,8 @@ I'm sure there are also plenty of bugs in there, but that doesn't bother me at t
 
 The following screenshot shows the braces REPL. It uses readline for completion and provides a way to tweak the level of introspection via flags. This example also shows the disassembler in action.
 
-![braces repl][image-1]
+![braces repl](projects_braces_screenshot.png)
 
 [1]:	https://github.com/certainty/braces
 [2]:	https://craftinginterpreters.com/
 [3]:	https://small.r7rs.org/
-
-[image-1]:	_resources/projects_braces_screenshot.png

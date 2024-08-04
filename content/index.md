@@ -9,17 +9,14 @@
 
 ➡️ &nbsp;  Follow me  and:
 
-- Check out some of my [projects][1]
-- Dive into my **[CV][2]** if you're interested in my full journey 
-- Read my [ramblings][3]
+- Check out some of my [projects]("/projects")
+- Dive into my [CV]("/cv") if you're interested in my full journey 
+- Read my [ramblings]("/writing")
 
 🔗 &nbsp; Talks
 
 I've talked about the way we built a GraphQL gateway at the GraphQL Europe conference in 2018
 
-https://www.youtube.com/watch?v=kMOq3nf8vKY
 
+{{< youtube id=kMOq3nf8vKY autoplay=false class=video-preview allowFullScreen=true >}}
 
-[1]:	/Projects
-[2]:	/CV
-[3]:	/page/1

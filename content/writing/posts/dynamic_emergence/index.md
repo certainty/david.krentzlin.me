@@ -10,13 +10,13 @@ tags:
 
 In the ongoing debate about the best tools for software development, the dichotomy between dynamic and static environments has long been a point of tension. It seems like static languages  dominate the landscape today —  and there are some excellent reasons for that. 
 
-However, I am here to make the case for Common Lisp — a dynamic programming language which cannot only compete with modern static languages but may, in fact, change the game. 
+However, I am here to make the case for Common Lisp, a dynamic programming language, which cannot only compete with modern static languages but may, in fact, change the game. 
 
 To me, Common Lisp stands out as one of the few environments capable of *making dynamic languages truly viable*. 
 
 It does that through seamless integration of language and runtime capabilities in a way that creates a system, which not only matches but sometimes even exceeds the prowess of static languages. 
 
-Whether by design or accident, the Common Lisp experience seems to be based on *emergence* — which means that the combination of Common Lisp's features — gradually typed programming language, image-based environment, sophisticated condition system, and the REPL, give rise to an experience that is more powerful than the sum of its parts. 
+Whether by design or accident, the Common Lisp experience seems to be based on *emergence* -- which means that the combination of Common Lisp's features -- gradually typed programming language, image-based environment, sophisticated condition system, and the REPL, give rise to an experience that is more powerful than the sum of its parts. 
 
 Unlike static languages with their clear separation between compile and runtime, Common Lisp blurs these boundaries and enables the programmer to use the same tools at compile time and runtime. This becomes visible, for example, in Common Lisp’s condition system, which is the single, unified mechanism to deal with compile time and runtime errors alike. 
 

@@ -1,9 +1,10 @@
 ---
-Tags:
+title: 'It is dead, Jim!'
+date: 2024-02-03
+tags:
  - common lisp
-Summary: Common Lisp is dead, libraries haven’t seen updates in years, the tooling is ancient, the language standard hasn’t changed in decades, the community is old …. I love it. An island of sanity in the midst of an insane tech world. Common Lisp isn’t dead, it’s sane. 
+summary: 'Common Lisp is dead, libraries haven’t seen updates in years, the tooling is ancient, the language standard hasn’t changed in decades, the community is old …. I love it. An island of sanity in the midst of an insane tech world. Common Lisp isn’t dead, it’s sane.'
 ---
-# It is dead, Jim!
 
 Common Lisp is dead, libraries haven’t seen updates in years, the tooling is ancient, the language standard hasn’t changed in decades, the community is old and connected via outdated technology like IRC. 
 

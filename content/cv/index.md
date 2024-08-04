@@ -1,16 +1,14 @@
 ---
-Title: CV
-Tags:
+title: "Curriculum Vitae"
+tags:
  - CV
  - Resume
  - Hiring
 ---
 
-# Curriculum Vitae
+![Profile Image](david_profile_small.jpeg)
 
 <i class="fa-brands fa-linkedin"></i> [LinkedIn][1] &nbsp; <i class="fa-brands fa-square-xing"></i> [XING][2] &nbsp; <i class="fa-brands fa-square-github"></i> [GitHub][3]
-
-![][image-1]
 
 ## Professional Summary
 
