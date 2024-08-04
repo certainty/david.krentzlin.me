@@ -1,6 +1,7 @@
 ---
 title: "Curriculum Vitae"
 date: '2024-08-04'
+draft: true
 tags:
  - CV
  - Resume
