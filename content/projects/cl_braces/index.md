@@ -1,13 +1,15 @@
 ---
 title: "CL-Braces - compiler and virtual machine for a subset of golang"
-date: '2023-12-31'
+date: 2023-12-31
 tags:
- - 'common lisp'
- - 'cl-braces'
+ - common lisp
+ - cl-braces
  - go
  - projects
 summary: "Let's build a compiler and virtual machine for a subset of golang"
 ---
+
+# CL-Braces - compiler and virtual machine for a subset of golang
 
 <i class="fa-solid fa-signal"></i> &nbsp; Active &nbsp; &nbsp; &nbsp; <i class="fa-solid fa-toolbox"></i> &nbsp; Common Lisp &nbsp; &nbsp; &nbsp;  <i class="fa-brands fa-github"></i> &nbsp; [certainty/cl-braces.language][1]  | [certainty/cl-braces.ice][2] 
 

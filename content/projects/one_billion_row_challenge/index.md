@@ -5,10 +5,10 @@ tags:
  - 'common lisp'
  - projects
  - 1brc
-
 summary: 'How fast can Common Lisp process one billion rows of data? Let’s find out.'
 ---
 
+# One billion row challenge in Common Lisp
 <i class="fa-solid fa-signal"></i> &nbsp; Finished &nbsp; &nbsp; &nbsp; <i class="fa-solid fa-toolbox"></i> &nbsp; Common Lisp &nbsp; &nbsp; &nbsp;  <i class="fa-brands fa-github"></i> &nbsp; [certainty/1brc][1] 
 
 The [one billion row challenge][2] or 1brc for short has been all over my internet bubble lately. I first heard about it on hackernews and while I was not immediately interested, it quickly dawned on me that there are some interesting challenges lurking in this.

@@ -1,16 +1,19 @@
 ---
-title: 'It is dead, Jim!'
+title: "It is dead, Jim!"
 date: 2024-02-03
 tags:
  - common lisp
-summary: 'Common Lisp is dead, libraries haven’t seen updates in years, the tooling is ancient, the language standard hasn’t changed in decades, the community is old …. I love it. An island of sanity in the midst of an insane tech world. Common Lisp isn’t dead, it’s sane.'
 ---
+
+# It is dead, Jim!
 
 Common Lisp is dead, libraries haven’t seen updates in years, the tooling is ancient, the language standard hasn’t changed in decades, the community is old and connected via outdated technology like IRC. 
 
 > I love it, despite or maybe even because of that ❤️
 
 Consider the following an attempt to verbalize my recent reunion with Common Lisp, and how it had unforeseen positive effects on me and provided much needed perspective. 
+
+<!-- more -->
 
 ## Coming back to Common Lisp after a long hiatus
 
@@ -61,7 +64,7 @@ You won’t find many recent books on Common Lisp. Maybe the newest ones are [Pr
 #### Libraries and tools
 When I explored the ecosystem, I frequently stumbled upon GitHub repositories, which I would declare abandoned and long dead in other ecosystems. No commit in a year. How could that possibly be a good choice? 
 
-![Awesome Lisp Unit2][image-1]
+![Awesome Lisp Unit2](repository.png)
 
 Well, it turns out, in practice, this works out fine. The old libraries just work, they’ve seen their fair share of frequent updates back in the day. Today, they live in a calmer time, where most of the turmoil of their infancy and adolescence has been weathered. 
 
@@ -127,11 +130,9 @@ If you're, like me, someone who feels connected to the older tools, that have st
 [11]:	https://gigamonkeys.com/book/
 [12]:	https://paulgraham.com/onlisp.html
 [13]:	https://roswell.github.io/
-[14]:	/Projects
+[14]:	/projects
 [15]:	https://github.com/joaotavora/sly
 [16]:	https://david.krentzlin.me/2024/01/27/one-billion-row-challenge-in-common-lisp
 [17]:	https://www.quicklisp.org/beta/
 [18]:	https://lispcookbook.github.io/cl-cookbook/
 [19]:	https://franz.com/products/allegro-common-lisp/
-
-[image-1]:	_resources/repository.png

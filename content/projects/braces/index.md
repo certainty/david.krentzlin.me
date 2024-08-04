@@ -1,15 +1,16 @@
 ---
 title: "Braces - compiler and virtual machine for a scheme dialect"
-date: '2023-12-31'
+date: 2023-12-31
 tags:
  - rust 
  - projects
  - braces
-
 summary: 'I was keen to learn rust and dive into "crafting interpreters" so I ended up implementing a compiler and VM for a small scheme dialect.'
 ---
 
-<i class="fa-solid fa-signal"></i> &nbsp; Inactive &nbsp; &nbsp; &nbsp; <i class="fa-solid fa-toolbox"></i> &nbsp; Rust &nbsp; &nbsp; &nbsp;  <i class="fa-brands fa-github"></i> &nbsp; [certainty/braces][1] 
+# Braces - compiler and virtual machine for a scheme dialect
+
+{{< icon vendor="" name="github" link="https://github.com/certainty/braces" >}} [certainty/braces][1]
 
 Braces started when I worked with the wonderful book [crafting interpreters,][2] and I took that as an opportunity to:
 

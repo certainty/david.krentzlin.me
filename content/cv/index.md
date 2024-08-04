@@ -1,10 +1,13 @@
 ---
 title: "Curriculum Vitae"
+date: '2024-08-04'
 tags:
  - CV
  - Resume
  - Hiring
 ---
+
+# Curriculum Vitae
 
 ![Profile Image](david_profile_small.jpeg)
 

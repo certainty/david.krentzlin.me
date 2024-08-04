@@ -6,11 +6,14 @@ tags:
 - common lisp
 - type systems
 - programming
+
 ---
 
 In the ongoing debate about the best tools for software development, the dichotomy between dynamic and static environments has long been a point of tension. It seems like static languages  dominate the landscape today —  and there are some excellent reasons for that. 
 
 However, I am here to make the case for Common Lisp, a dynamic programming language, which cannot only compete with modern static languages but may, in fact, change the game. 
+
+<!-- more -->
 
 To me, Common Lisp stands out as one of the few environments capable of *making dynamic languages truly viable*. 
 
