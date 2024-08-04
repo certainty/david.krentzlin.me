@@ -10,6 +10,7 @@ summary: 'I was keen to learn rust and dive into "crafting interpreters" so I en
 
 # Braces - compiler and virtual machine for a scheme dialect
 
+
 {{< icon vendor="" name="github" link="https://github.com/certainty/braces" >}} [certainty/braces][1]
 
 Braces started when I worked with the wonderful book [crafting interpreters,][2] and I took that as an opportunity to:
