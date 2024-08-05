@@ -8,9 +8,7 @@ tags:
 summary: 'I had some time on my hand during a weekend and I have never built a DNS resolver before, so here is my version of "Implement DNS in a weekend"'
 ---
 
-# Implement DNS in a weekend in common lisp
-
-<i class="fa-solid fa-signal"></i> &nbsp; Finished &nbsp; &nbsp; &nbsp; <i class="fa-solid fa-toolbox"></i> &nbsp; Common Lisp &nbsp; &nbsp; &nbsp;  <i class="fa-brands fa-github"></i> &nbsp; [certainty/cl-dns][1] 
+# [Implement DNS in a weekend in common lisp](https://github.com/certainty/cl-dns)
 
 I had some time on my hand during a weekend and I have never built a DNS resolver before, so here is my version of [implementing DNS in a weekend][2].
 This is a fun project because it's small in scope, yet the problem space is non-trivial. The main objective for me here was to learn more about the current state of common lisp and how to use its binary manipulation and networking capabilities. 

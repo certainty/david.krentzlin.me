@@ -1,1 +1,5 @@
-/* overrides for my monochrome theme */
+
+figure.cv-profile-image img {
+    margin-left: 0;
+    text-align: left;
+}

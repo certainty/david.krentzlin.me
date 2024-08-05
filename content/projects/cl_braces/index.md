@@ -9,9 +9,7 @@ tags:
 summary: "Let's build a compiler and virtual machine for a subset of golang"
 ---
 
-# CL-Braces - compiler and virtual machine for a subset of golang
-
-<i class="fa-solid fa-signal"></i> &nbsp; Active &nbsp; &nbsp; &nbsp; <i class="fa-solid fa-toolbox"></i> &nbsp; Common Lisp &nbsp; &nbsp; &nbsp;  <i class="fa-brands fa-github"></i> &nbsp; [certainty/cl-braces.language][1]  | [certainty/cl-braces.ice][2] 
+# [CL-Braces - compiler and virtual machine for a subset of golang](https://github.com/certainty/cl-braces.language)
 
 This is the most recent iteration in my attempt to create a learning platform for programming language nerds like me. 
 The main objective here is to provide a language implementation that has builtin introspection, which should allow me to peek into the compilation process and inspect every detail of it. This is in very early development, and I'm currently focusing on implementing the language, but I have a pretty good idea on how I want to hook into the process.
