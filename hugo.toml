@@ -4,7 +4,7 @@ enableRobotsTXT = true
 theme = "hugo-theme-monochrome"
 
 [outputs]
-writing = ["HTML", "RSS", "JSON"] # JSON is needed for site_search
+home = ["HTML", "RSS", "JSON"] # JSON is needed for site_search
 
 [taxonomies]
   context = 'contexts'
