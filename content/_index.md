@@ -1,19 +1,20 @@
 
-👋 &nbsp; Hey, I'm David, a coding explorer with two decades of backend adventures. From Lisp's elegance to Haskell's rigor, I've navigated a wide range of languages, stacks, and paradigms. Ruby, Scala, Elixir, Typescript - I’ve applied them all and I keep learning
+👋 &nbsp; I'm David, a software engineer with two decades of experience specializing in backend development. I've worked with a wide range of languages and paradigms, from Lisp to Haskell, as well as Ruby, Scala, Elixir, and TypeScript. I'm continuously expanding my knowledge across different technologies.
 
-⚙️ &nbsp; My skill set? Crafting distributed systems, building infrastructure, scaling developer tools, and tinkering with compilers. It's not just a job; it's a tech odyssey which has kept me excited and full-filled for a long time.
+My expertise lies in building distributed systems, scaling infrastructure, developing developer tools, and working with compilers. This field has been a source of long-term professional fulfillment for me.
 
-🤝 &nbsp; I've worn the captain's hat, led crews, and learned that projects thrive on people power. You can’t steer a vessel through wind, weather, and hardship without a skilled crew. 
+I have experience leading teams and understand that successful projects are driven by the strength of the team.
 
-🌐 &nbsp; Nowadays I'm Senior Architect at New Work SE, where I support my crew, the cloud platform team, to bring the organization into the cloud.
+Currently, I'm a Senior Architect at New Work SE, where I support the tech organization in transitioning the organization to the cloud.
 
-➡️ &nbsp;  Follow me  and:
 
-- Check out some of my [projects]("/projects")
-- Dive into my [CV]("/cv") if you're interested in my full journey 
-- Read my [ramblings]("/writing")
+➡️ &nbsp; **Follow me and:**
 
-🔗 &nbsp; Talks
+- Check out some of my [projects](/projects)
+- Dive into my [CV](/cv) if you're interested in my full journey 
+- Read my [ramblings](/writing)
+
+🔗 &nbsp; **Talks**
 
 I've talked about the way we built a GraphQL gateway at the GraphQL Europe conference in 2018
 

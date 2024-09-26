@@ -1,5 +1,23 @@
 
+html {
+    /* global font is mainly for navigation and controls
+so we pick a mono font */
+    font-family: 'Abel', 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
 figure.cv-profile-image img {
     margin-left: 0;
     text-align: left;
+}
+
+article {
+    font-family: 'Open Sans', sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+blockquote p {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    font-style: italic;
+    margin-left: 5px;
 }

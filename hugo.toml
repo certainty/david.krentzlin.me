@@ -3,6 +3,9 @@ title = 'David Krentzlin'
 enableRobotsTXT = true
 theme = "hugo-theme-monochrome"
 
+[outputs]
+writing = ["HTML", "RSS", "JSON"] # JSON is needed for site_search
+
 [taxonomies]
   context = 'contexts'
   kind = 'kinds'
