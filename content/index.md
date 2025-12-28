@@ -9,4 +9,4 @@ So, grab yourself some beverage, and stay around if you like.
 
 * [Read what I have to say](writing.html)
 * [Check my CV, if you want to work with me](cv.html) 
-* <a href="https://github.com/certainty" rel="me">Go and check my github</a>
+* Find me on my <a href="https://github.com/certainty" rel="me">github</a> or my <a href="https://codeberg.org/certainty">codeberg</a> 
