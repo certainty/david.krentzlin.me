@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>It’s dead, Jim!</title>
+
+            <link rel="stylesheet" href="/css/styles.css" />
+        <link rel="stylesheet" href="/css/article.css" />
+        
+      </head>
+
+  <body>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <div class="site-title">
+          david.krentzlin.me
+        </div>
+
+        <nav class="site-nav">
+          <a href="/" >Home</a>
+          <a href="/writing.html" aria-current="page">Writing</a>
+          <a href="/cv.html" >CV</a>
+          <a href="/rss.xml">RSS</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+            <header id="title-block-header">
+        <h1 class="title">It’s dead, Jim!</h1>
+                <p class="date small">2024-02-03</p>
+              </header>
+      
+      <p>Common Lisp is dead, libraries haven’t seen updates in years,
+      the tooling is ancient, the language standard hasn’t changed in
+      decades, the community is old and connected via outdated
+      technology like IRC.</p>
+      <div class="callout">
+      <p>I love it, despite or maybe even because of that!</p>
+      </div>
+      <p>Consider the following an attempt to verbalize my recent
+      reunion with Common Lisp, and how it had unforeseen positive
+      effects on me and provided much needed perspective.</p>
+      <hr />
+      <h2 id="coming-back-to-common-lisp-after-a-long-hiatus">Coming
+      back to Common Lisp after a long hiatus</h2>
+      <p>I don’t know how it happened and why it happened exactly, but
+      some months back I rediscovered my love for Lisp, Common Lisp in
+      particular.</p>
+      <p>Some 25 years ago or so, when I was exploring programming for
+      the first time, I found some text file somewhere on the internet,
+      which contained a short tutorial on Common Lisp. Yeah, it was an
+      actual .txt file, and I read it on my notepad. I didn’t understand
+      much, but something clicked for me and I got hooked. I was
+      probably more intrigued by the prospect of understanding and
+      mastering this difficult technology, than by the language
+      itself.</p>
+      <p>It emanated the appeal of a tool that had been crafted by
+      generations before me and was handed down this way. Yeah, I know,
+      cringe. But that’s genuinely how no small parts of me felt at that
+      moment.</p>
+      <p>Some years later, I fell for the <a
+      href="https://call-cc.org/">Scheme programming language</a>. Its
+      simplicity appealed to me, and it had the same gravitas as Common
+      Lisp, but came in a slightly more modern package. I spent a
+      significant amount of time working in and with the language. I
+      even found a way to sneak it into my day-job. Ironically, I came
+      to dislike Common Lisp back then. Compared to Scheme it had some
+      properties which didn’t jibe with me. The most prominent quarrel I
+      had with it, was that it is a <a
+      href="https://en.wikipedia.org/wiki/Common_Lisp#The_function_namespace">Lisp-2</a>.
+      For some reason, language nerds like me, care enough about these
+      things to write a language off (luckily only temporarily).</p>
+      <p>In my day-job I moved on to other programming languages, and
+      used many of them in production, in real systems with real users.
+      That transferred to my side-projects as well, and I found myself
+      using Scheme, or any Lisp for that matter, less and less.</p>
+      <p>I greatly enjoyed working in those other programming languages,
+      and I somehow still gravitated towards the ones that had a longer
+      history. Most notably, Haskell and <a
+      href="chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://erlang.org/download/armstrong_thesis_2003.pdf">Erlang</a>.
+      I never lost my fascination for the tools and the wisdom that came
+      before me in this field. More than once have I found answers to
+      new problems in <a
+      href="https://curtclifton.net/papers/MoseleyMarks06a.pdf">old
+      papers</a>, old technology and old systems.</p>
+      <p>Serendipitously, some months ago, I found myself in a phase of
+      my life where chaos compounded both in the private and
+      professional domain. A high rate of change, uncertainty of the
+      future and also, unfortunately, the heavy certainty of the
+      present, started to take a serious toll on me.</p>
+      <p>I’ve always had side-projects, and working on them felt like a
+      vacation in the years prior. That was no longer true. I grew tired
+      of the pace of the tech landscape, tired of ever new technologies
+      and programming languages and the perceived need to keep up with
+      tech influencers and news and tech social media, to stay
+      current.</p>
+      <p>That’s where I turned, probably subconsciously, to something I
+      hoped was different. The antithesis of all of that.</p>
+      <div class="callout">
+      <p>☝️ Common Lisp is the antithesis to the belief, that tech has
+      to be renewed and changed all the time to stay relevant and
+      useful</p>
+      </div>
+      <p>I somehow started to look into Common Lisp again, and it
+      reignited the curiosity and joy I’ve lost because of all the
+      madness in my field.</p>
+      <hr />
+      <h2 id="its-not-dead-its-silent">It’s not dead, it’s silent</h2>
+      <p>I’ve put the claim that Common Lisp is dead into the title, but
+      at this point it’s probably clear, that this can’t be my
+      experience. It certainly has been pronounced dead many times over
+      the decades, and I somehow expected that to be true when I came
+      back. But what I realized that it’s not dead. It has just
+      settled.</p>
+      <p>A dead programming language should start to rot, ecosystems
+      should get outdated, libraries unusable, the community should
+      shrink, compilers and tooling should stagnate and eventually
+      vanish. All of this is not true, at least not to the extent that
+      it would pose a real threat to Common Lisp’s survival.</p>
+      <div class="callout">
+      <p>☝️ An island of sanity and calm in the midst of an insanely
+      fast changing tech world</p>
+      </div>
+      <p>What you see instead is a mature language, that has stood the
+      test of time. It managed to still be around because it is the
+      quintessential malleable programming language. It adapts. The
+      tooling that is used by the compiler is essentially exposed to the
+      user of the language. This is huge as it enables me as a developer
+      to help myself, and it relieves languages builders.</p>
+      <p>I can do that in a principled way with defined APIs and decades
+      worth of collective experience using those APIs. I can change the
+      language so that it supports what I need now.</p>
+      <p>Turns out that I seldomly have to go that way though, as the
+      language provides a comprehensive feature set which equips it very
+      well to solve many of the problems, software engineers faced over
+      the years. The ideas, that have been general enough to warrant a
+      library, have been collected and distributed.</p>
+      <p>This makes Common Lisp insanely practical because numerous
+      smart people have done that over a long time. And they succeeded.
+      Otherwise, the language would actually be dead. It’s a testament
+      to the fact that this adaptability is not a marketing claim. It’s
+      reality.</p>
+      <h3 id="slower-pace-of-change-for-tools-and-resources">Slower pace
+      of change for tools and resources</h3>
+      <p>You’ll find that many of the tools that you’ll use with Common
+      Lisp today have been around for years and decades. I’m writing my
+      code in <a href="https://github.com/doomemacs/doomemacs">emacs</a>
+      using <a href="https://github.com/joaotavora/sly">sly</a>, which
+      you can think of as a <a
+      href="https://de.wikipedia.org/wiki/Language_Server_Protocol">language
+      server</a> on steroids. It’s a new fork of the venerable <a
+      href="https://slime.common-lisp.dev/">slime</a>. And as you’d
+      expect, many lispers still use this older version happily. It just
+      keeps working, so why would you change?</p>
+      <h4 id="books">Books</h4>
+      <p>You won’t find many recent books on Common Lisp. Maybe the
+      newest ones are <a
+      href="https://www.amazon.de/-/en/Vsevolod-Domkin/dp/1484264274">Programming
+      Algorithms in Lisp</a> and <a
+      href="https://www.amazon.de/-/en/Michal-phoe-Herda/dp/148426133X">The
+      Common Lisp Condition System</a>, both of which are great. But you
+      really don’t need to, since there is not much that changed since
+      the language has been standardized. You can read the classics <a
+      href="https://gigamonkeys.com/book/">Practical Common Lisp</a> and
+      <a href="https://paulgraham.com/onlisp.html">On Lisp</a>, and
+      you’ll be just fine. No worries. I took great joy from re-reading
+      those books with twenty-something years more experience under my
+      belt.</p>
+      <h4 id="libraries-and-tools">Libraries and tools</h4>
+      <p>When I explored the ecosystem, I frequently stumbled upon
+      GitHub repositories, which I would declare abandoned and long dead
+      in other ecosystems. No commit in a year. How could that possibly
+      be a good choice?</p>
+      <figure>
+      <img src="repository.png" alt="Awesome Lisp Unit2" />
+      <figcaption aria-hidden="true">Awesome Lisp Unit2</figcaption>
+      </figure>
+      <p>Well, it turns out, in practice, this works out fine. The old
+      libraries just work, they’ve seen their fair share of frequent
+      updates back in the day. Today, they live in a calmer time, where
+      most of the turmoil of their infancy and adolescence has been
+      weathered.</p>
+      <div class="callout">
+      <p>☝️ I had to get used to seeing libraries that haven’t seen
+      updates in years</p>
+      </div>
+      <h4 id="fomo-is-not-a-thing-here">FOMO is not a thing here</h4>
+      <p>This one was huge and came as a total surprise to me. While
+      there are efforts in the community to <a
+      href="https://roswell.github.io/">stay relevant and current</a>,
+      it still has an attitude of watching from the sidelines. For one
+      because many of the hot topics today aren’t hot for the first
+      time, it’s just that a new generation of developers has found out.
+      Secondly, a lot of the problems for which hot solutions are
+      discussed and promoted today, either don’t exist or have already
+      been solved in Common Lisp.</p>
+      <p>As, a consequence, I experience no fear of missing out. The
+      ecosystem changes very slowly, and just by looking at its history,
+      I can be confident that if an idea sticks and is worth exploring
+      further and building on, it will be picked up. I can also be
+      confident that the language will be suitable for the task.</p>
+      <p>This was a remarkable relief to me which I, since then, tried
+      to replicate in other aspects of my life.</p>
+      <div class="callout">
+      <p>☝️ FOMO is non-existent in the Common Lisp ecosystem. There is
+      a confidence, that taking things slower and not following the
+      hype-train right away, doesn’t put you at a disadvantage.</p>
+      </div>
+      <p>The calm it instilled was much needed and with the other
+      aspects of my life improving as well, it began to feel wonderful
+      again.</p>
+      <hr />
+      <h2 id="its-getting-good-and-better">It’s getting good and
+      better</h2>
+      <p>I’ve been using Common Lisp for many of my recent <a
+      href="/projects">projects</a>. I don’t know if I can solely
+      ascribe it to the language, but contrary to many other
+      side-projects, all of these are either finished<a href="#fn1"
+      class="footnote-ref" id="fnref1"
+      role="doc-noteref"><sup>1</sup></a> or I’m still actively working
+      on them.</p>
+      <p>Furthermore, I’ve got quickly accustomed and even proficient in
+      my development environment with <a
+      href="https://github.com/joaotavora/sly">sly</a>, which, for the
+      most part, is superior to every language servers I used thus far.
+      It predates all modern language servers but is based on the same
+      foundational ideas and understanding of the problem space for
+      these tools.</p>
+      <p>I’m still far from being an expert in the language, again
+      something that I consider a positive aspect. There is so much to
+      learn. I’m good enough to be dangerous now, and I would trust
+      myself to build, <a
+      href="https://david.krentzlin.me/2024/01/27/one-billion-row-challenge-in-common-lisp">at
+      least a first solution</a>, for most of the issues I can think
+      of.</p>
+      <p>A direct result of a language, which has been around for that
+      long, is that there are many problems, which have already been
+      solved. The hardest part is usually to find those solutions, but
+      <a href="https://www.quicklisp.org/beta/">quicklisp</a> and the <a
+      href="https://lispcookbook.github.io/cl-cookbook/">Common Lisp
+      Cookbook</a> are a good starting point.</p>
+      <h3
+      id="a-comprehensive-and-complete-environment-for-serious-development">A
+      comprehensive and complete environment for serious
+      development</h3>
+      <p>I’ve pointed out elsewhere, that I want to write an article on
+      the unique features of the Common Lisp development and runtime
+      environment, which makes it uniquely capable as a highly dynamic
+      language. But let me touch on this briefly here as well.</p>
+      <p>It would be too narrow of a view if you considered just the
+      language itself, and neglected the capabilities of the running
+      system. It’s the combination of an interactive environment, high
+      degrees of introspection, a superior conditions system, a builtin
+      powerful debugger and a highly malleable language. This package is
+      not only complementary, but it’s, in fact, emergent to a system,
+      which is more powerful than the sum of its parts.</p>
+      <h2 id="it-cant-all-be-good">It can’t all be good</h2>
+      <p>No, it can’t and it isn’t. But nothing is. Common Lisp has
+      warts and weird APIs and surprises and foot-guns. So does every
+      other system out there. At least there are decades worth of
+      experience dealing with these properties of the language, and to
+      me, this is real proof that all of these downsides are very well
+      manageable in practice.</p>
+      <h2 id="i-havent-built-any-real-system-and-put-it-to-production">I
+      haven’t built any real system and put it to production</h2>
+      <p>I think that’s important to point out. My projects, as of now,
+      are just my side-projects. I don’t know if Common Lisp is a good
+      language to use for modern-day production systems. I have some
+      reasons to believe that it would, but I simply don’t know.</p>
+      <p>There are companies out there who still bet on Common Lisp. As
+      far as I understand, this field is dominated by the <a
+      href="https://franz.com/products/allegro-common-lisp/">commercial
+      compiler implementations</a> and many of the systems are
+      proprietary.</p>
+      <p>The fact, that I don’t use it professionally in my day-job,
+      doesn’t put me off. Remember, I came to this island to escape some
+      of the madness I see there. I consider this part a perk of my
+      particular journey.</p>
+      <h2 id="fin">Fin</h2>
+      <p>If you’re, like me, someone who feels connected to the older
+      tools, that have stood the test of time rather than chasing the
+      next hype, consider Common Lisp. There is much to be learned from
+      the wisdom within the community and the tools they’ve built. Enjoy
+      the silence, lack of drama, and keep hacking.</p>
+      <section id="footnotes"
+      class="footnotes footnotes-end-of-document" role="doc-endnotes">
+      <hr />
+      <ol>
+      <li id="fn1"><p>Or at least gotten to a point where I was content
+      with the state of it and didn’t feel the urge to continue.<a
+      href="#fnref1" class="footnote-back"
+      role="doc-backlink">↩︎</a></p></li>
+      </ol>
+      </section>
+    </main>
+
+  </body>
+</html>
