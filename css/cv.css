@@ -1,0 +1,47 @@
+/* CV layout overrides */
+
+body {
+  padding-top: 2rem;
+}
+
+h1 {
+  margin-bottom: 0.5rem;
+}
+
+h1.title {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+h2 {
+  margin-top: 2rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.2rem;
+  font-weight: bold;
+}
+
+p {
+  margin: 0.6rem 0;
+}
+
+/* Lists used for roles / items */
+ul {
+  margin: 0.5rem 0 1rem 0;
+}
+
+li {
+  margin: 0.3rem 0;
+}
+
+/* Dates / metadata */
+small {
+  font-size: 0.85em;
+  color: #666;
+}
+
+/* Print emphasis */
+@media print {
+  h2 {
+    border-bottom: 1px solid #aaa;
+  }
+}

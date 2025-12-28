@@ -1,0 +1,6 @@
+#+title: David Krentzlin
+#+link: https://david.krentzlin.me
+#+description: Ramblings from some dude on the internet
+
+#+include: writing/20240210-on-simplicity.org
+#+include: writing/20240301-notes-on-tools.org

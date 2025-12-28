@@ -1,3 +1,0 @@
-{{ with .OutputFormats.Get "rss" -}}
-{{ printf `<link rel="alternate" type=%q href=%q title=%q>` .MediaType.Type .Permalink site.Title | safeHTML }}
-{{ end }}

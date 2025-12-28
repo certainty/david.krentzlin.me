@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>$if(title)$$title$$else$Document$endif$</title>
+
+    $if(css)$
+    $for(css)$
+    <link rel="stylesheet" href="$css$" />
+    $endfor$
+    $endif$
+
+    $if(highlighting-css)$
+    <style>
+     $highlighting-css$
+    </style>
+    $endif$
+  </head>
+
+  <body>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <div class="site-title">
+          david.krentzlin.me
+        </div>
+
+        <nav class="site-nav">
+          <a href="/" $if(nav-home)$aria-current="page"$endif$>Home</a>
+          <a href="/writing.html" $if(nav-writing)$aria-current="page"$endif$>Writing</a>
+          <a href="/cv.html" $if(nav-cv)$aria-current="page"$endif$>CV</a>
+          <a href="/rss.xml">RSS</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      $if(title)$
+      <header id="title-block-header">
+        <h1 class="title">$title$</h1>
+        $if(date)$
+        <p class="date small">$date$</p>
+        $endif$
+      </header>
+      $endif$
+
+      $body$
+    </main>
+
+  </body>
+</html>

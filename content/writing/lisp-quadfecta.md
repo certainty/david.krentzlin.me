@@ -1,19 +1,18 @@
 ---
+title: "The Quadfecta of Common Lisp"
 date: 2024-04-06
-title: "Dynamic Emergence: The Quadfecta of Common Lisp"
 context: code
 tags:
 - common lisp
 - type systems
 - programming
-
 ---
 
 In the ongoing debate about the best tools for software development, the dichotomy between dynamic and static environments has long been a point of tension. It seems like static languages  dominate the landscape today —  and there are some excellent reasons for that. 
 
 However, I am here to make the case for Common Lisp, a dynamic programming language, which cannot only compete with modern static languages but may, in fact, change the game. 
 
-<!-- more -->
+---
 
 To me, Common Lisp stands out as one of the few environments capable of *making dynamic languages truly viable*. 
 
@@ -23,7 +22,9 @@ Whether by design or accident, the Common Lisp experience seems to be based on *
 
 Unlike static languages with their clear separation between compile and runtime, Common Lisp blurs these boundaries and enables the programmer to use the same tools at compile time and runtime. This becomes visible, for example, in Common Lisp’s condition system, which is the single, unified mechanism to deal with compile time and runtime errors alike. 
 
-> Common Lisp seamlessly integrates language and runtime capabilities in a way that is emergent to a programming experience, that is unparalleled.
+::: callout
+Common Lisp seamlessly integrates language and runtime capabilities in a way that is emergent to a programming experience, that is unparalleled.
+:::
 
 ## Some definitions before we get started
 Let’s level the ground and establish what I mean when I say static or dynamic language or environment, respectively.
@@ -31,7 +32,7 @@ Let’s level the ground and establish what I mean when I say static or dynamic 
 ### Static Environment
 
 * Enforces a strict separation between compile time and runtime. 
-	* The tools and abstractions of the compiler are not exposed to the user of the language.
+* The tools and abstractions of the compiler are not exposed to the user of the language.
 * Follows the classical change, compile, fix cycle
 * Typically characterized by static, strong typing.
 * Offers some level of support for reflection and introspection, depending on the language 
@@ -41,7 +42,7 @@ Typical examples of this are Rust, Go, C++, and Haskell.
 ### Dynamic Environment
 
 * Exhibits fluid boundaries between compile time and runtime. 
-	* The tools and abstractions the compiler uses are, to some degree, exposed to the user of the language.
+* The tools and abstractions the compiler uses are, to some degree, exposed to the user of the language.
 * Involves repeated cycles of change, evaluate or compile, and execute.
 * Generally features dynamic typing and provides type introspection.
 * Often provides robust support for introspection and reflection.

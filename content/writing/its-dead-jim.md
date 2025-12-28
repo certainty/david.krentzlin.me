@@ -1,19 +1,17 @@
 ---
-title: "It is dead, Jim!"
+title: It's dead, Jim!
 date: 2024-02-03
-tags:
- - common lisp
 ---
-
-# It is dead, Jim!
 
 Common Lisp is dead, libraries haven’t seen updates in years, the tooling is ancient, the language standard hasn’t changed in decades, the community is old and connected via outdated technology like IRC. 
 
-> I love it, despite or maybe even because of that ❤️
+::: callout
+I love it, despite or maybe even because of that!
+:::
 
 Consider the following an attempt to verbalize my recent reunion with Common Lisp, and how it had unforeseen positive effects on me and provided much needed perspective. 
 
-<!-- more -->
+---
 
 ## Coming back to Common Lisp after a long hiatus
 
@@ -35,9 +33,13 @@ I’ve always had side-projects, and working on them felt like a vacation in the
 
 That’s where I turned, probably subconsciously, to something I hoped was different. The antithesis of all of that.
 
-> ☝️ Common Lisp is the antithesis to the belief, that tech has to be renewed and changed all the time to stay relevant and useful
+::: callout
+☝️ Common Lisp is the antithesis to the belief, that tech has to be renewed and changed all the time to stay relevant and useful
+:::
 
 I somehow started to look into Common Lisp again, and it reignited the curiosity and joy I’ve lost because of all the madness in my field.
+
+---
 
 ## It’s not dead, it’s silent
 
@@ -45,7 +47,9 @@ I’ve put the claim that Common Lisp is dead into the title, but at this point 
 
 A dead programming language should start to rot, ecosystems should get outdated, libraries unusable, the community should shrink, compilers and tooling should stagnate and eventually vanish. All of this is not true, at least not to the extent that it would pose a real threat to Common Lisp’s survival.
 
-> ☝️ An island of sanity and calm in the midst of an insanely fast changing tech world 
+::: callout
+☝️ An island of sanity and calm in the midst of an insanely fast changing tech world 
+:::
 
 What you see instead is a mature language, that has stood the test of time. It managed to still be around because it is the quintessential malleable programming language. It adapts.  The tooling that is used by the compiler is essentially exposed to the user of the language. This is huge as it enables me as a developer to help myself, and it relieves languages builders.  
 
@@ -68,7 +72,9 @@ When I explored the ecosystem, I frequently stumbled upon GitHub repositories, w
 
 Well, it turns out, in practice, this works out fine. The old libraries just work, they’ve seen their fair share of frequent updates back in the day. Today, they live in a calmer time, where most of the turmoil of their infancy and adolescence has been weathered. 
 
-> ☝️ I had to get used to seeing libraries that haven’t seen updates in years
+::: callout
+☝️ I had to get used to seeing libraries that haven’t seen updates in years
+:::
 
 #### FOMO is not a thing here
 
@@ -78,9 +84,13 @@ As, a consequence, I experience no fear of missing out. The ecosystem changes ve
 
 This was a remarkable relief to me which I, since then, tried to replicate in other aspects of my life.
 
-> ☝️ FOMO is non-existent in the Common Lisp ecosystem. There is a confidence, that taking things slower and not following the hype-train right away, doesn’t put you at a disadvantage.
+::: callout
+☝️ FOMO is non-existent in the Common Lisp ecosystem. There is a confidence, that taking things slower and not following the hype-train right away, doesn’t put you at a disadvantage.
+:::
 
 The calm it instilled was much needed and with the other aspects of my life improving as well, it began to feel wonderful again. 
+
+---
 
 ## It’s getting good and better
 
