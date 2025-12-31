@@ -20,7 +20,7 @@ ARTICLES_SRC := $(wildcard content/writing/*.md)
 ARTICLES_HTML := $(patsubst content/%,public/%,$(ARTICLES_SRC:.md=.html))
 
 
-HTML := $(OUT)/index.html $(OUT)/cv.html $(OUT)/writing.html $(ARTICLES_HTML)
+HTML := $(OUT)/index.html $(OUT)/cv.html $(OUT)/writing.html $(ARTICLES_HTML) $(OUT)/writing/assets
 
 all: $(OUT) $(OUT)/writing $(HTML) $(OUT)/css #rss
 
@@ -45,6 +45,9 @@ $(OUT)/writing:
 $(OUT)/css:
 	cp -r css $(OUT)
 
+$(OUT)/writing/assets:
+	cp -r content/writing/assets $(OUT)/writing/assets
+
 rss:
 	pandoc $(SRC)/feed.org \
 		--from=org \
@@ -57,3 +60,6 @@ serve:
 
 clean:
 	rm -rf $(OUT)
+
+dependencies:
+	sudo dnf install pandoc

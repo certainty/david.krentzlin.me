@@ -1,8 +1,8 @@
 # Contact
 
-- E-Mail: contact@david.krentzlin.me
-- Website: https://david.krentzlin.me
-- GitHub: https://github.com/certainty
+- [Website](https://david.krentzlin.me)
+- [GitHub](https://github.com/certainty)
+- [LinkedIn](https://de.linkedin.com/in/david-krentzlin-b1708818b)
 
 # Summary
 

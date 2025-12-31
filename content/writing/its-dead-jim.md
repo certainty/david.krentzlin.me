@@ -68,7 +68,7 @@ You won’t find many recent books on Common Lisp. Maybe the newest ones are [Pr
 #### Libraries and tools
 When I explored the ecosystem, I frequently stumbled upon GitHub repositories, which I would declare abandoned and long dead in other ecosystems. No commit in a year. How could that possibly be a good choice? 
 
-![Awesome Lisp Unit2](repository.png)
+![Awesome Lisp Unit2](assets/repository.png)
 
 Well, it turns out, in practice, this works out fine. The old libraries just work, they’ve seen their fair share of frequent updates back in the day. Today, they live in a calmer time, where most of the turmoil of their infancy and adolescence has been weathered. 
 

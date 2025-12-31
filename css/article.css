@@ -53,6 +53,7 @@ blockquote p {
   margin: 0;
 }
 
+
 /* Date */
 #title-block-header .date {
   margin: 0;
@@ -73,6 +74,18 @@ blockquote p {
     margin-top: 0.3rem;
   }
 }
+
+
+figure {
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+figure img {
+  margin: 1rem 0;
+}
+
+
 
 /* -----------------------------
    Callout / concept summary
