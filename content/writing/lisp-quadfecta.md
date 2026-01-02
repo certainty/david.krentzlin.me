@@ -57,7 +57,7 @@ I’m convinced that it would be far too shortsighted if we evaluated programmin
 
 But if we broaden our view to the runtime environment and the tooling, the landscape changes quite a bit.  Take, for instance, Erlang: while the language itself might not be very intriguing, the runtime provided by the BEAM, combined with the language, creates a robust environment for fault-tolerant distributed systems, which is practically unparalleled. A similar argument could be made for Go and its concurrency approach. In addition to that, developer tools like language servers, linters, and formatters play a pivotal role in the success of a particular environment.
 
-It seems clear, that a good developer experience is created from much more than just the language syntax and semantics — it includes the surrounding ecosystem of tools, and crucially, the runtime. 
+It seems clear, that a good developer experience results from much more than just the language syntax and semantics. It includes the surrounding ecosystem of tools, and crucially, the runtime. 
 
 ## The Quadfecta of the Common Lisp Experience
 
@@ -71,15 +71,15 @@ These features are:
 
 Let’s take a look at what kind of process these tools create and how it is different, but no less powerful, than the ones found in most static environments.
 
-In static languages, the compiler offers constant feedback on the soundness of your code. It catches errors in the program and ensures that it adheres to the type constraints. This provides real-time assurance while you build your programs and creates a tight feedback loop which is characterized by the `change -> compile -> fix` cycle. 
+In static languages, the compiler offers constant feedback on the soundness of your code. It catches errors in the program and ensures that it adheres to the type constraints. This provides real-time assurance while you build your programs and creates a tight feedback loop which is characterized by the *change -> compile -> fix* cycle. 
 
-The dynamic nature of Common Lisp, on the other hand, necessitates a different approach. Without the luxury of static guarantees, we must rely on executing the code to make sure it’s wellformed and sound.
+The dynamic nature of Common Lisp, on the other hand, necessitates a different approach. Without the luxury of static guarantees, we must rely on executing the code to make sure it’s well-formed and sound.
 
 Common Lisp leverages the power of the REPL (Read-Eval-Print Loop) and its image-based environment, to make this a superior experience.  The REPL enables the developer to change the code incrementally, experimenting with small updates until you converge on a working solution. Unlike the cumbersome process of recompiling the entire program for minor changes, Lisp's image-based system allows for dynamic modification of code segments, just-in-time, which leads to rapid iteration and experimentation.
 
-I couldn’t help but notice the similarity to Mike Rother's concept of the knowledge threshold — central to lean thinking and continuous improvement — where we use deliberate experimentation and learning to push past our understanding. 
+I couldn’t help but notice the similarity to Mike Rother's concept of the knowledge threshold, central to lean thinking and continuous improvement, where we use deliberate experimentation and learning to push past our understanding. 
 
-This is a different kind of assurance, and yes, the guarantees are weaker, but I think Common Lisp manages to make up for that. I will spend the next chapters of this multipart series elaborating on how it does that. The following shall serve as an index, and I will update the links to the corresponding articles as I finish them.  
+This is a different kind of assurance, and yes, the guarantees are weaker, but I think Common Lisp manages to make up for that. I will spend the next chapters of this multipart series elaborating on how it does that. The following shall serve as an index, and I will update the links to the corresponding articles as I finish them. 
 
 * The Language: Beyond Syntax
 * The Image-Based Environment: Incremental and iterative
