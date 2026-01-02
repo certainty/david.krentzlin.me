@@ -83,6 +83,17 @@ figure {
 
 figure img {
   margin: 1rem 0;
+  height: 100%;
+  width: 100%;
+  object-fit: contain !important;
+  overflow: hidden !important;
+  overflow-clip-margin: 0px !important;
+}
+
+figcaption {
+  font-size: 0.8rem;
+  font-style: italic;
+  color: var(--color-muted);
 }
 
 

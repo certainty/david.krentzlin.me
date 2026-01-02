@@ -34,6 +34,7 @@
 
     --color-accent: #d08c8c;
     --color-accent-soft: #9a5c5c;
+    --color-code-bg: #aaaaaa;
 
     --color-quote: #c9b2b2;
   }
@@ -253,6 +254,7 @@ pre {
 
 code {
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.9em;
   background: var(--color-code-bg);
   padding: 0.1em 0.3em;
   border-radius: 3px;
