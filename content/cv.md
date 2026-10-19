@@ -2,32 +2,42 @@
 
 - [Website](https://david.krentzlin.me)
 - [GitHub](https://github.com/certainty)
+- [Codeberg](https://codeberg.org/certainty)
 - [LinkedIn](https://de.linkedin.com/in/david-krentzlin-b1708818b)
+- [XING](https://www.xing.com/profile/David_Krentzlin)
 
 # Summary
 
 I’m a software engineer with **management experience**, and I thrive in environments which require technical expertise as well as good communication and leadership.
 
-In my **roughly 20 years as a software engineer**, I have worked on multiple high traffic, distributed services in all stages of their life-cycles, in multiple domains, and helped to scale them operationally and organizationally.
+In my **more than 20 years as a software engineer**, I have worked on multiple high traffic, distributed services in all stages of their life-cycles, in multiple domains, and helped to scale them operationally and organizationally.
+
+I am much better at building **infrastructure, platforms and developer tooling** than user-facing products. Over my career I have gone into management, stayed there for a while, and circled back into an individual contributor role — and I value the perspective that each of those brings.
 
 I care about good culture and try to increase my understanding of the environments, teams, systems, values, and practices that enable organizations to sustain in an industry, that is fast-paced and requires constant feedback and learning. 
 
 # Experience
 
-## Senior Software Architect  — New Work SE [Jan 2023 - Present]
+## Senior Software Architect — New Work SE [Jan 2023 - Present]
 
-### Developer Experience and Automation (Jan 2024 - Present)
+### Platform Team (Jan 2026 - Present)
 
-As part of the ongoing cloud migration, I changed my area of responsibility so that I can support the organization
-best to move critical infrastructure into the cloud. In the developer experience and automation team I am a subject
-matter expert for the API infrastructure that powers the data needs for all our applications.
+Since the beginning of 2026, I work in a platform team that provides foundational infrastructure and developer tooling for the engineering organization. As a coding architect, my emphasis is on APIs — synchronous data fetching via REST and GraphQL, as well as asynchronous service integration via RabbitMQ / AmazonMQ.
+
+RabbitMQ has been my focus for the last six months, where I work on both the infrastructure and the integration libraries on top of AmazonMQ. In addition, I maintain a large set of libraries that are shared across the organization.
+
+*AWS cloud services, AmazonMQ, RabbitMQ, GraphQL, REST APIs, messaging, software architecture, developer tooling*
+
+### Developer Experience and Automation (Jan 2024 - Dec 2025)
+
+As part of the cloud migration, I changed my area of responsibility so that I can support the organization best to move critical infrastructure into the cloud. In the developer experience and automation team I am a subject matter expert for the API infrastructure that powers the data needs for all our applications.
 
 This includes the synchronous data fetching layer via our GraphQL API federation layer as well as asynchronous service integration
 with messaging infrastructure based on RabbitMQ / AmazonMQ.
 
 My primary responsibility is to ensure seamless operation of our infrastructure, before during and after the migration of application
 workloads to the cloud. This requires careful consideration, planning, coordination and execution to minimize disruption of product
-development teams. 
+development teams. The cloud migration has been finished successfully.
 
 Leveraged skills: AWS cloud services, Terraform, GraphQL, Scala, Ruby, Golang, project management, Software Architecture, leadership
 
@@ -60,10 +70,10 @@ As a former individual contributor in the team, I took on the leadership positio
 
 - build the newly established team and foster good collaboration, team ownership and consistent delivery
 - help to establish data-driven software delivery 
-- and continuous improvement processes for consulting and platform projects 
+- and continuous improvement processes for consulting and platform projects
 - drive architectural decisions and give architectural guidance for the engineering organization
-- enable my direct reports and support them in achieving their objectives and growing them in their functions 
-- facilitate decision-making, group learning and continuous improvement to help the team take ownership of their platform 
+- enable my direct reports and support them in achieving their objectives and growing them in their functions
+- facilitate decision-making, group learning and continuous improvement to help the team take ownership of their platform
 
 *leadership, management, communication, agile methods, coaching, project management, strategic decision-making,  architectural guidance*
 
@@ -122,10 +132,33 @@ The platform is now used by 200+ product engineers to build their products in a 
 
 *Ruby, PHP, C/C++, Scheme, MSSQL, SXML, Quark* 
 
+# Talks
 
-## Skills
+- **Supercharged SDL** — GraphQL Europe 2018, Berlin. How we used SDL, custom directives and a little expression language to unlock the GraphQL flexibility we needed at XING. [Video](https://www.youtube.com/watch?v=kMOq3nf8vKY)
+- **Supercharged SDL** — GraphQL Hamburg Meetup, 2019
+- various talks at local meetups in Hamburg
 
-* *Technologies:* GraphQL, APIs, Messaging, Dist. systems, Compilers & Interpreters, AWS Cloud
-* *Programming languages:* Scala (3+ years), Ruby (10+ years), Common Lisp (3+ years), Typescript (1+ years)
-* *Soft:* Communication, coaching, mentoring, leadership, project management, agile software delivery 
+# Education
+
+- Computer Science, FernUniversität Hagen — studied for three years, left without a degree
+
+# Open Source & Projects
+
+All projects are for personal education and learning. You can find them on [GitHub](https://github.com/certainty) and [Codeberg](https://codeberg.org/certainty).
+
+- [cl-braces](https://github.com/certainty/cl-braces) — a compiler and virtual machine for a Go-inspired language, written in Common Lisp
+- [braces](https://github.com/certainty/braces) — a Scheme compiler and virtual machine in Rust
+- [1brc](https://github.com/certainty/1brc) — a solution for the 1 billion row challenge in Common Lisp
+- [cl-dns](https://github.com/certainty/cl-dns) — a DNS implementation in Common Lisp
+- [alien-game-of-life](https://github.com/certainty/alien-game-of-life) — Conway's game of life in Common Lisp
+- [chicken\_sendfile](https://github.com/certainty/chicken_sendfile) — sendfile support for CHICKEN Scheme
+
+I also write occasionally. See my [writing](writing.html) for what I have to say.
+
+# Skills
+
+* *Technologies:* GraphQL, REST APIs, Messaging (RabbitMQ / AmazonMQ), Dist. systems, Compilers & Interpreters, AWS Cloud
+* *Programming languages:* Scala (3+ years), Ruby (10+ years), Common Lisp (3+ years), Typescript (3+ years), Go, Rust, Elixir, Haskell
+* *Soft:* Communication, coaching, mentoring, leadership, project management, agile software delivery
+* *Creative:* Drawing
 * *Languages:* German (native), English (fluent), Icelandic (novice), Danish (novice)
